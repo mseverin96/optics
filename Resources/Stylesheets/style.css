@@ -5,5 +5,72 @@
 
 html {
   font-size:18px;
-  line-height:1.4px;
+  line-height:1.4;
+  font-family:Helvetica;
 }
+
+.container {
+  width:960px;
+  margin:0 auto;
+}
+
+/* Header */
+
+header {
+  background-image:url("../Pics/glasses-bg.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  height:30rem;
+  width:100%;
+}
+
+/* Top Box */
+.container .head-box-top {
+  display:flex;
+  justify-content:space-between;
+  padding:0 2rem;
+  background-color:cadetblue;
+  color:white;
+  position:relative;
+  top:1rem;
+  align-items:center;
+  margin-bottom:10rem;
+}
+
+.head-box-left {
+  display:inline-flex;
+  align-items:center;
+}
+
+.head-box-left img {
+  height:1.5rem;
+  padding-right:1rem;
+}
+
+.head-box-right ul {
+  display:inline-flex;
+  flex-direction:row;
+}
+
+.head-box-right ul li {
+  padding:1rem 0 1rem 2rem;
+}
+
+/* Bottom Box */
+.container .head-box-bottom-container {
+  display:flex;
+  justify-content:flex-end;
+}
+
+.container .head-box-bottom-container .head-box-bottom {
+  font-weight:bold;
+  font-size:2rem;
+  line-height:1.2;
+  background-color:white;
+  padding:1.5rem 5rem;
+  position:relative;
+  left:2rem;
+}
+
+/* Services */
