@@ -41,6 +41,7 @@ header {
 .head-box-left {
   display:inline-flex;
   align-items:center;
+  width:15rem;
 }
 
 .head-box-left img {
@@ -74,3 +75,31 @@ header {
 }
 
 /* Services */
+
+.services .container {
+  display:flex;
+  justify-content:center;
+  height:8rem;
+  padding:3rem 0;
+}
+
+.service {
+  display:inline-flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  margin:0 3rem;
+  text-align:center;
+}
+
+.paper img {
+  width:3.5rem;
+}
+
+.ruler img {
+  width:5rem;
+}
+
+.truck img {
+  width:5rem;
+}
